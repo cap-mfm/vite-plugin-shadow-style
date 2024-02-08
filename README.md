@@ -96,7 +96,9 @@ Example:
 ```ts
 // ...
 rollupOptions: {
-  shadowStyle({ iife: true }),
+  plugins: [
+    shadowStyle({ iife: true }),
+  ],
 },
 // ...
 
